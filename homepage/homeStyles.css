@@ -7,11 +7,13 @@
 /* NAVBAR */
 
 .navbar {
-  height: 60px;
-  background-color: rgb(17, 17, 131);
+  height: 50px;
+  background-color: #0E2F7E;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  padding-left: 50px;;
 }
 
 /* BANNER */
@@ -50,10 +52,11 @@
 
 .title {
   margin-bottom: 20px;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
   width: 70%;
   margin: auto;
+  color: #0E2F7E;
 }
 
 .line {
@@ -72,40 +75,78 @@
   margin: 20px;
   width: 200px;
   height: 200px;
-  border: solid 3px rgba(5, 62, 5, 0.808);
+  border: solid 2px rgb(233, 233, 233);
   border-radius: 10px;
   display:flex;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
-  font-size: 20px;
-  font-weight: bold;
+  overflow: hidden;
+  position: relative;
 }
 
 .card-todo:hover {
   color:  rgb(17, 17, 131);
-  border: solid 3px rgb(17, 17, 131);
+  border: solid 2px rgb(17, 17, 131);
+  cursor: pointer;
+}
+
+.card-image {
+  width: 180%;
+}
+
+.todo-text {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsla(0, 0%, 0%, 0.6);
 }
 
 .card-info {
-  margin: 18px;
-  width: 200px;
-  height: 160px;
-  border: solid 3px rgba(5, 62, 5, 0.808);
-  border-radius: 10px;
   display:flex;
   justify-content:center;
   align-items:center;
-  font-size: 20px;
-  font-weight: bold;
+  flex-direction: column;
+  margin: 18px;
+  width: 200px;
+  height: 160px;
+  border: solid 2px rgb(233, 233, 233);
+  border-radius: 10px;
+  font-size: 18px;
 }
 
 .card-info:hover {
   color:  rgb(17, 17, 131);
-  border: solid 3px rgb(17, 17, 131);
-  background-color: rgb(233, 233, 233);
+  border: solid 2px rgb(17, 17, 131);
+  cursor: pointer;
 }
 
 .card-text {
   width: 170px;
   text-align: center;
+  font-weight: bold;
 }
+
+.card-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-icon {
+  width: 25%;
+  margin: 5px;
+  color: white;
+}
+
+.emergency {
+  font-size:18px;
+}
+
+//#F6F6F6
