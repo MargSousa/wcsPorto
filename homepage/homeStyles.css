@@ -2,6 +2,7 @@
   margin: 0;
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Noto Sans TC', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 /* NAVBAR */
@@ -29,6 +30,7 @@
   transform: translate(-50%, -50%);
   color: white;
   font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* SECTION CITY  */
@@ -58,9 +60,9 @@
 
 .city-title {
   margin-bottom: 10px;
-  font-size: 20px;
   color:#0E2F7E;
   font-weight: bold;
+  font-size: 24px;
 }
 
 .city-text {
@@ -74,14 +76,14 @@
 .title {
   margin-bottom: 20px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: bolder;
   width: 75%;
   margin: auto;
   color: #0E2F7E;
 }
 
 .line {
-  border: 1px solid rgb(220, 218, 218);
+  border: 1px solid rgb(242, 242, 242);
   width: 75%;
   margin: auto;
 }
@@ -90,6 +92,9 @@ a {
   text-decoration: none; /* no underline */
 }
 
+.title-font {
+  font-family: 'Raleway', sans-serif;
+}
 
 .todo {
   display: flex;
@@ -101,7 +106,7 @@ a {
   margin: 20px;
   width: 200px;
   height: 200px;
-  border: solid 8px rgb(233, 233, 233);
+  border: solid 5px #0E2F7E;
   border-radius: 10px;
   display:flex;
   flex-direction: column;
@@ -112,9 +117,9 @@ a {
 }
 
 .card-todo:hover {
-  color:  #0E2F7E;
-  border: solid 8px #0E2F7E;
+  border: solid 4px rgb(223, 161, 5);
   cursor: pointer;
+  background-color: hsla(0, 0%, 0%, 0.8);
 }
 
 .card-photo {
@@ -123,8 +128,9 @@ a {
 
 .card-text {
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 .todo-text {
@@ -146,18 +152,19 @@ a {
   margin: 20px;
   width: 200px;
   height: 300px;
-  border: solid 8px rgb(233, 233, 233);
+  border: solid 4px rgb(223, 161, 5);
   border-radius: 10px;
   display:flex;
   flex-direction: column;
   overflow: hidden;
   position: relative;
   color: black;
+  line-height: 22px
 }
 
 .card-picks:hover {
   color:  #0E2F7E;
-  border: solid 8px #0E2F7E;
+  border: solid 4px #0E2F7E;
   cursor: pointer;
 }
 
@@ -174,12 +181,12 @@ a {
 
 .picks-local {
   font-size: 14px;
-  margin: 0px 0px 5px 10px;
+  margin: 0px 5px 5px 10px;
 }
 
 .picks-text {
   font-size: 12px;
-  margin: 0px 0px 0px 10px;
+  margin: 0px 5px 0px 10px;
 }
 
 .pick-icon {
@@ -218,9 +225,13 @@ a {
   margin-right: 10px;
   color: white;
   padding: 10px 20px 10px 20px;
-  font-size: 14px;
   border-radius: 5px;
   text-align: center;
+  line-height: 18px;
+}
+
+.date {
+  font-family: 'Raleway', sans-serif;
 }
 
 .event-text {
@@ -289,34 +300,30 @@ a {
   color: white;
 }
 
-.emergency-icon {
-  width: 20%;
-  margin: 0px;
-}
-
-/* .emergency {
-  border: solid 2px #F93E2B;
-  color: black;
-  cursor: auto;
-} */
-
-.emergency:hover {
-  cursor: none;
-  border: solid 2px #F93E2B;
-  color: black;
-}
-
 /* Footer */
 
-.footer {
+.footer-section {
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  font-size: 14px;
   margin-top: 20px;
-  height: 50px;
   background-color: #0E2F7E;
   color: white;
   display: flex;
   flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
-  padding-left: 50px;
+}
+
+.foot-text {
+  display: flex;
+  flex-direction: row;
 }
 
 
