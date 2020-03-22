@@ -31,11 +31,6 @@
   font-size: 50px;
 }
 
-/* .banner-logo {
-  width: 80%;
-} */
-
-
 /* SECTION CITY  */
 
 
@@ -191,6 +186,70 @@ a {
   width: 8%;
 }
 
+/* Events */
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+}
+
+.event-card {
+  display: flex;
+  color: black;
+  border: solid 2px rgb(233, 233, 233);
+  border-radius: 10px;
+  margin: 20px 30px 5px 30px;
+  width: 330px;
+}
+
+.event-card:hover {
+  border: solid 2px #0E2F7E;
+}
+
+.event-date{
+  display: flex;
+  flex-direction: column;
+  background-color: #0E2F7E;
+  margin-right: 10px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.event-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.event-title {
+  color: black;
+  font-weight: bold;
+}
+
+.event-info {
+  color: black;
+  font-size: 12px;
+}
+
+.event-more {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.info-link {
+  color: rgb(18, 150, 150);
+}
+
 /* Useful Information */
 
 .card-info {
@@ -245,6 +304,19 @@ a {
   cursor: none;
   border: solid 2px #F93E2B;
   color: black;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 20px;
+  height: 50px;
+  background-color: #0E2F7E;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 50px;
 }
 
 
