@@ -93,7 +93,6 @@
 
 a {
   text-decoration: none; /* no underline */
-  color: black;
 }
 
 
@@ -125,6 +124,12 @@ a {
 
 .card-photo {
   width: 180%;
+}
+
+.card-text {
+  text-align: center;
+  font-weight: bold;
+  color: white;
 }
 
 .todo-text {
@@ -207,9 +212,10 @@ a {
   cursor: pointer;
 }
 
-.card-text {
+.info-text {
   text-align: center;
   font-weight: bold;
+  color: black;
 }
 
 .card-img {
