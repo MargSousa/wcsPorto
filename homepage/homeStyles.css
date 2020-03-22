@@ -16,28 +16,25 @@
   padding-left: 50px;;
 }
 
-/* BANNER */
+/* BANNER  */
 
 .banner {
   position: relative;
-  text-align: center;
-  font-family: 'Noto Sans TC', sans-serif;
-}
-
-.banner-img {
-  width: 100vw;
-  height: 60vh;
 }
 
 .banner-text {
-  color: white;
-  font-size: 50px;
-  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
 }
+
+/* .banner-logo {
+  width: 80%;
+} */
+
 
 /* SECTION CITY  */
 
@@ -46,10 +43,35 @@
   padding: 20px 50px 20px 50px;
 }
 
-.city-text {
-  text-align: justify;
+.city {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
+.city-desc {
+  width: 650px;
+  margin: 20px;
+}
+
+.city-logo {
+  width: 380px;
+  margin: 10px;
+}
+
+.city-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color:#0E2F7E;
+  font-weight: bold;
+}
+
+.city-text {
+  font-size: 16px;
+  text-align: justify;
+}
 
 /* SECTIONS TO DO AND AFTER */
 
@@ -130,18 +152,24 @@ a {
   flex-direction: column;
   overflow: hidden;
   position: relative;
+  color: black;
+}
+
+.card-picks:hover {
+  color:  #0E2F7E;
+  border: solid 8px #0E2F7E;
+  cursor: pointer;
 }
 
 .picks-image {
   height: 60%;
   width: 100%;
-  border-bottom: solid 4px rgb(233, 233, 233);
 }
 
 .picks-title {
   font-weight: bold;
   font-size: 16px;
-  margin: 10px 10px 5px 10px;
+  margin: 10px 5px 0px 10px;
 }
 
 .picks-local {
@@ -211,4 +239,11 @@ a {
   cursor: none;
   border: solid 2px #F93E2B;
   color: black;
+}
+
+
+@media (max-width: 760px) {
+  .banner-text {
+    font-size: 30px;
+  }
 }
