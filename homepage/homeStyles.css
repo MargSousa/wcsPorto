@@ -304,7 +304,6 @@ a {
 
 .footer-section {
   width: 100%;
-  height: 70px;
   padding: 20px;
   font-size: 14px;
   margin-top: 20px;
@@ -312,18 +311,34 @@ a {
   color: white;
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
 }
 
 .footer {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .foot-text {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  margin: 5px 20px 5px 10px;
+}
+
+.foot-note {
+  margin-right: 20px;
+  color: white;
+}
+
+.foot-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
 }
 
 
