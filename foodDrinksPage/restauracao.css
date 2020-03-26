@@ -59,31 +59,32 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Raleway', sans-serif;
-    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
     margin: auto;
+    padding-top: 50px;
 }
 
 .restaurants{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
 }
 
 .item1, .item2, .item3{
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .item1:hover, .item2:hover, .item3:hover{
@@ -112,8 +113,8 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Raleway', sans-serif;
-    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
     margin: auto;
     padding-top: 50px;
 }
@@ -122,22 +123,22 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
 }
 
 .fr1, .fr2, .fr3{
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .fr1:hover, .fr2:hover, .fr3:hover{
@@ -158,8 +159,8 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Raleway', sans-serif;
-    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
     margin: auto;
     padding-top: 50px;
 }
@@ -168,22 +169,22 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
 }
 
 .drinks1, .drinks2, .drinks3{
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .drinks1:hover, .drinks2:hover, .drinks3:hover{
@@ -206,22 +207,22 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
 }
 
 .rec1, .rec2, .rec3 {
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .rec1:hover, .rec2:hover, .rec3:hover{
@@ -232,8 +233,8 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Raleway', sans-serif;
-    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
     margin: auto;
     padding-top: 50px;
 }
