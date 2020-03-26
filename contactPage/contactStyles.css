@@ -1,8 +1,15 @@
 
 
+<<<<<<< HEAD
 body{
     margin:0px;
     font-family: ‘Noto Sans TC’, sans-serif;
+=======
+html{
+    padding-left:10px;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> master
 }
 
 .pageTitle
@@ -27,11 +34,19 @@ body{
 
 .pageTitle1
 {   width:100%;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> master
     margin-bottom: 4px;
 }
 
 .pageTitle2
 {   width:100%;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> master
     margin-top: 4px;
 }
 
@@ -40,9 +55,13 @@ form
     display: grid;
     width: 60vw;
     margin-top: 0px;
+<<<<<<< HEAD
     padding-left:20%;
     padding-right:20%;
     
+=======
+    margin-left:80px;
+>>>>>>> master
     
 }
 
@@ -51,8 +70,12 @@ form
     margin-bottom: 4px;
     margin-top: 2px;
     font-size: 11px;
+<<<<<<< HEAD
     border-radius: 7px;
     border: solid 3px #0E2F7E;
+=======
+    
+>>>>>>> master
     color:rgb(192,192,192);
     height: 25px;
 }
@@ -82,9 +105,17 @@ form
 {
     margin-bottom: 4px;
     font-size: 11px;
+<<<<<<< HEAD
     border: solid 3px #0E2F7E;
     border-radius: 20px;
     color:rgb(192,192,192);
+=======
+    
+    border-width: 1px;
+    border-color: black;
+    border: 0;
+    outline: 1px solid black;
+>>>>>>> master
     height: 25px;
 }
 
@@ -107,8 +138,12 @@ form
     align-self: center;
     margin-top: 10px;
     margin-bottom: 4px;
+<<<<<<< HEAD
     border-radius: 7px;
     border: solid 3px #0E2F7E;
+=======
+   
+>>>>>>> master
     font-size: 12px;
 }
 
@@ -117,6 +152,7 @@ form
    
     margin-left: 20px;
     width: 100%;
+<<<<<<< HEAD
     color: rgb(223, 161, 5);
     font-family: ‘Raleway’, sans-serif;
     font-size: 25px;
@@ -214,6 +250,88 @@ border-radius: 7px;
     
 }
 
+=======
+}
+
+.AboutUsLocationDiscription
+{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.AboutUsDiscription1
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 0px;
+    
+}
+
+.AboutUs
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+   
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    /*align-items: flex-start;*/
+}
+
+
+.Location
+{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    width: 30%;
+   
+    
+}
+
+.locationDetailsH3
+{
+width: 70%;
+}
+
+
+.map
+{
+height: 400px;
+width: 70%;
+/*align-items: left;*/
+}
+
+.NameIndividual
+{
+    width: 150px;
+    height: 150px
+    
+}
+
+.Pic
+{
+    width: 150px;
+    height: 150px;
+    color:blue;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 0px;
+    border: solid 5px #0E2F7E;
+    
+}
+
+>>>>>>> master
 
 .locationDetails 
 {
