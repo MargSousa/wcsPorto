@@ -3,6 +3,7 @@
 html{
     padding-left:10px;
     width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .pageTitle
@@ -18,13 +19,13 @@ html{
 
 .pageTitle1
 {   width:100%;
-    font-family: Arial, Helvetica, sans-serif;
+    
     margin-bottom: 4px;
 }
 
 .pageTitle2
 {   width:100%;
-    font-family: Arial, Helvetica, sans-serif;
+    
     margin-top: 4px;
 }
 
@@ -42,7 +43,7 @@ form
     margin-bottom: 4px;
     margin-top: 2px;
     font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+    
     color:rgb(192,192,192);
     border-width: 1px;
     border-color: black;
@@ -52,7 +53,7 @@ form
 .formDetailsLabel
 {
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+  
     height: 20px;
     font-weight: bold;
     padding-top: 5px;
@@ -62,7 +63,7 @@ form
 .SubjectLabel
 {
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+   
     border-width: 1px;
     border-color: black;
     height: 25px;
@@ -74,7 +75,7 @@ form
 {
     margin-bottom: 4px;
     font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+    
     border-width: 1px;
     border-color: black;
     border: 0;
@@ -87,7 +88,7 @@ form
     margin-top: 15px;
     margin-bottom: 6px;
     font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+    
     height:100px;
     border-width: 1px;
     border-color: black;
@@ -101,15 +102,15 @@ form
     align-self: flex-end;
     margin-top: 10px;
     margin-bottom: 4px;
-    font-family: Arial, Helvetica, sans-serif;
+   
     font-size: 12px;
 }
 
 .aboutUsH3
 {
-    font-family: Arial, Helvetica, sans-serif;
+   
     margin-left: 20px;
-    width: 50vw;
+    width: 100%;
 }
 
 .AboutUsLocationDiscription
@@ -154,7 +155,7 @@ form
     flex-wrap: wrap;
     align-items: right;
     width: 30%;
-    font-family: Arial, Helvetica, sans-serif;
+   
     
 }
 
@@ -173,8 +174,9 @@ width: 70%;
 
 .NameIndividual
 {
-    width: 25%;
-    height: 25%;
+    width: 150px;
+    height: 150px
+    
 }
 
 .Pic
@@ -182,11 +184,11 @@ width: 70%;
     width: 150px;
     height: 150px;
     color:blue;
-    /*position: relative;*/
     border-radius: 10px;
     margin-top: 20px;
     padding: 0px;
     border: solid 5px #0E2F7E;
+    
 }
 
 
@@ -194,6 +196,7 @@ width: 70%;
 {
     align-self:baseline;
     padding-top: 0px;
+    line-height: 150%;
     /*margin-block-start: 0px;*/
 }
 
@@ -203,15 +206,13 @@ width: 70%;
 
 .Name
 {
-    color:blue;
-    /*position: absolute;*/
+    color:rgb(192,192,192);
+    position: absolute;
     font-size: 13px;
     font-weight: bold;
-    text-decoration: underline;
     text-decoration: none;  
-    align-self: center;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
+    
+    transform: translate(30%,-540%);
     
     
 }
@@ -223,10 +224,10 @@ width: 70%;
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 14px;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 120px;
     text-align: justify;
     text-justify: inter-character;
     line-height: 170%;
@@ -322,12 +323,26 @@ width: 70%;
     {
         width: 90px;
         height: 90px;
+        
     }
+
 
     .NameIndividual
     {
-    width: 32%;
-    height: 32%;
+        
+        align-items: center;
+        width: 32%;
+        height: 32%;
+        position: relative;
+    }
+
+    .Name
+    {
+        
+        transform: translate(-150%,300%);
+        font-size: 11px;
+        text-align: center;
+
     }
 
     .Location
@@ -351,6 +366,7 @@ width: 70%;
     .AboutUsDiscription1
     {
     width: 100%;
+    
     }
 
     .aboutUsH3
