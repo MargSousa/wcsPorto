@@ -1,8 +1,7 @@
 
 
-html{
-    padding-left:10px;
-    width: 100vw;
+body{
+    margin:0px;
     font-family: ‘Noto Sans TC’, sans-serif;
 }
 
@@ -39,9 +38,11 @@ html{
 form
 {
     display: grid;
-    width: 40vw;
+    width: 60vw;
     margin-top: 0px;
-    margin-left:80px;
+    padding-left:20%;
+    padding-right:20%;
+    
     
 }
 
@@ -50,10 +51,9 @@ form
     margin-bottom: 4px;
     margin-top: 2px;
     font-size: 11px;
-    
+    border-radius: 7px;
+    border: solid 3px #0E2F7E;
     color:rgb(192,192,192);
-    border-width: 1px;
-    border-color: black;
     height: 25px;
 }
 
@@ -82,11 +82,9 @@ form
 {
     margin-bottom: 4px;
     font-size: 11px;
-    
-    border-width: 1px;
-    border-color: black;
-    border: 0;
-    outline: 1px solid black;
+    border: solid 3px #0E2F7E;
+    border-radius: 20px;
+    color:rgb(192,192,192);
     height: 25px;
 }
 
@@ -97,8 +95,8 @@ form
     font-size: 11px;
     
     height:100px;
-    border-width: 1px;
-    border-color: black;
+    border-radius: 7px;
+    border: solid 3px #0E2F7E;
 }
 
 .button
@@ -106,10 +104,11 @@ form
     background-color: rgb(192,192,192);
     height: 30px;
     width: 30%;
-    align-self: flex-end;
+    align-self: center;
     margin-top: 10px;
     margin-bottom: 4px;
-   
+    border-radius: 7px;
+    border: solid 3px #0E2F7E;
     font-size: 12px;
 }
 
@@ -128,8 +127,7 @@ form
 {
     display: flex;
     flex-direction: row;
-    width:100vw;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -165,8 +163,10 @@ form
     display: flex;
     flex-wrap: wrap;
     align-items: right;
-    width: 45%;
+    width: 40%;
     justify-content: start;
+    padding-left:70px;
+    
    
     
 }
@@ -178,15 +178,21 @@ form
     font-family: ‘Raleway’, sans-serif;
     font-size: 25px;
     font-weight: bold;
+    
 }
 
 
 .map
 {
-height: 400px;
-width: 70%;
+height: 500px;
+width: 100%;
+border-radius: 7px;
+    border: solid 5px #0E2F7E;
+/*position: absolute;*/
+
 /*align-items: left;*/
 }
+
 
 .NameIndividual
 {
@@ -214,10 +220,10 @@ width: 70%;
     align-self:baseline;
     padding-top: 0px;
     line-height: 150%;
-    font-size: 12px;
+    font-size: 14px;
     padding-top:10px;
     text-align:center;
-    width:70%
+    width:100%
     /*margin-block-start: 0px;*/
 }
 
@@ -295,27 +301,53 @@ width: 70%;
   }
   
   @media (max-width: 800px) {
+    
+    .pageTitle
+    {
+        margin-left:0px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    
+    .pageTitle0
+    {
+        margin-left:10%;
+        margin-right:10%;
+        width:100%;
+        text-align: center;
+    }
+    
+    
     .pageTitle1
     {
         font-size: 18px;
+        margin-left:10%;
+        margin-right:10%;
+        width:100%;
+        text-align: center;
     }
 
     .pageTitle2
     {
-        font-size: 19px;
+        font-size: 18px;
+        margin-left:10%;
+        margin-right:10%;
+        width:100%;
+        text-align: center;
     }
+    
 
     .button
     {
         width: 60vw;
-        
     }
 
     .form
     {
         width: 60vw;
-        margin-left: 20vw;
-        margin-right: 20vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
     }
 
     .locationDetails
@@ -369,11 +401,13 @@ width: 70%;
         width:100%;
         align-items: center;
         text-align:center;
+        padding-left: 15px;
     }
 
     .map
     {
         height: 200px;
+        width:90%;
     }
 
     .locationDetails
@@ -402,6 +436,7 @@ width: 70%;
         margin-top:15px;
         width: 100%;
         text-align: center;
+        padding-left:0px;
     }
 
     .locationDetailsH3
