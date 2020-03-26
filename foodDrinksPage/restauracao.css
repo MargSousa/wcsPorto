@@ -59,10 +59,9 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Montserrat', sans-serif;
-    width: 75%;
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
     margin: auto;
-    padding-top: 50px;
 }
 
 .restaurants{
@@ -113,7 +112,7 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 75%;
     margin: auto;
     padding-top: 50px;
@@ -126,6 +125,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: 20px;
 }
 
 .fr1, .fr2, .fr3{
@@ -159,7 +159,7 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 75%;
     margin: auto;
     padding-top: 50px;
@@ -172,6 +172,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: 20px;
 }
 
 .drinks1, .drinks2, .drinks3{
@@ -233,7 +234,7 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 75%;
     margin: auto;
     padding-top: 50px;
@@ -301,8 +302,13 @@ nav ul li a:hover {
   }
  
   /*Placelink && line && Pagetitle*/
-
-  .placelink{
+  
+  @media (max-width: 760px) {
+    .banner-text {
+      font-size: 30px;
+    }
+  }
+.placelink{
     font-size: 15px;
     padding: 10px;
     font-weight: bold;
@@ -320,9 +326,3 @@ nav ul li a:hover {
     margin-left: 30px;
     color: rgb(223, 161, 5);
     padding-top: 40px;
-  
-  @media (max-width: 760px) {
-    .banner-text {
-      font-size: 30px;
-    }
-  }
