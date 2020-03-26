@@ -329,19 +329,21 @@ width: 70%;
 
     .NameIndividual
     {
-        
+        display:flex;
+        flex-direction: column;
         align-items: center;
         width: 32%;
         height: 32%;
-        position: relative;
+        position: initial;
     }
 
     .Name
     {
         
-        transform: translate(-150%,300%);
+        /*transform: translate(30%,540%);*/
         font-size: 11px;
         text-align: center;
+        position: initial;
 
     }
 
@@ -386,6 +388,7 @@ width: 70%;
 
   }
 
+  
 
 
 
