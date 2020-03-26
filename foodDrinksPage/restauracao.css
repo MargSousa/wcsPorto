@@ -4,11 +4,11 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 body{
     margin: 1em;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /*navbar*/
@@ -49,6 +49,9 @@ nav ul li a:hover {
     background: cornflowerblue;
     transition: .5s;
 }
+.restlife{
+    background-color: cornflowerblue;
+}
 
 /* Restaurants */
 
@@ -56,6 +59,9 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
+    margin: auto;
 }
 
 .restaurants{
@@ -71,7 +77,7 @@ nav ul li a:hover {
 .item1, .item2, .item3{
     margin: 10px;
     width: 350px;
-    height: 400px;
+    height: 430px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
@@ -94,16 +100,10 @@ nav ul li a:hover {
     padding: 10px;
 }
 
-.pagetitle{
-    font-size: 24px;
-    font-weight: bolder;
-    width: 75%;
-    color: #0E2F7E;
-}
-
 .restaurants-section{
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 /*Francesinhas*/
@@ -112,6 +112,9 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
+    margin: auto;
 }
 
 .francesinhas{
@@ -127,7 +130,7 @@ nav ul li a:hover {
 .fr1, .fr2, .fr3{
     margin: 10px;
     width: 350px;
-    height: 400px;
+    height: 430px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
@@ -154,6 +157,9 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
+    margin: auto;
 }
 
 .drinks{
@@ -169,7 +175,7 @@ nav ul li a:hover {
 .drinks1, .drinks2, .drinks3{
     margin: 10px;
     width: 350px;
-    height: 400px;
+    height: 430px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
@@ -207,7 +213,7 @@ nav ul li a:hover {
 .rec1, .rec2, .rec3 {
     margin: 10px;
     width: 350px;
-    height: 400px;
+    height: 430px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
@@ -224,6 +230,9 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
+    margin: auto;
 }
 
 .rec1txt, .rec2txt, .rec3txt{
@@ -277,7 +286,7 @@ nav ul li a:hover {
     margin-left: 5px;
   }
   
-  /*Placelink && line*/
+  /*Placelink && line && Pagetitle*/
 
   .placelink{
     font-size: 15px;
@@ -287,9 +296,16 @@ nav ul li a:hover {
 }
 .line {
     border: 2px solid rgb(242, 242, 242);
-    width: 100%;
+    width: 90%;
     margin: auto;
   }
+.pagetitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: rgb(223, 161, 5);
+    padding-top: 40px;
   
   @media (max-width: 760px) {
     .banner-text {
